@@ -1,0 +1,6 @@
+DESCRIBE rtsp://192.168.1.5:48010 RTSP/1.0
+CSeq: 2
+X-GS-ClientVersion: 14
+Host: 192.168.1.5
+Accept: application/sdp
+

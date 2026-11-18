@@ -1,0 +1,7 @@
+ANNOUNCE streamid=video/0/0 RTSP/1.0
+CSeq: 6
+Session: DEADBEEF
+Content-type: application/sdp
+Content-length: 24
+
+a=x-nv-video[0].gcmap:0

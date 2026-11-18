@@ -1,0 +1,8 @@
+project: savantenvs/moonlight-common-c
+target: fuzz_rtp_video
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_rtp_video/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_rtp_video
+    libfuzzer: true

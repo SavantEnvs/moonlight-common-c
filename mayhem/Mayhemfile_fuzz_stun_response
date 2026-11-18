@@ -1,0 +1,8 @@
+project: savantenvs/moonlight-common-c
+target: fuzz_stun_response
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_stun_response/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_stun_response
+    libfuzzer: true

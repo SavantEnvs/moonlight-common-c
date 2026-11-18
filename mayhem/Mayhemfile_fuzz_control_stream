@@ -1,0 +1,8 @@
+project: savantenvs/moonlight-common-c
+target: fuzz_control_stream
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_control_stream/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_control_stream
+    libfuzzer: true
